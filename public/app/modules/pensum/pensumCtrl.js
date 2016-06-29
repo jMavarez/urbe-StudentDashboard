@@ -1,41 +1,62 @@
 angular.module('pensumCtrl', ['pensumService'])
-    .controller('pensumController', function(Pensum) {
+    .controller('pensumController', function(Pensum, $http, AuthData) {
         var vm = this;
-        var courses = [];
-        var coursesDate = [];
-        vm.pensum = Pensum.getPensum();
-        vm.pensumScore = Pensum.getPensumScore();
+        vm.courses = [];
+        vm.nCourses = [];
+        vm.coursesDate = [];
+        vm.pensum = [];
+        vm.pensumScore = [];
 
-        vm.passedSemesters = function(pensum) {
-            for (var i = 0; i < pensum.length; i++) {
-                var course = pensum[i].subject.course.courseLevel;
-                if (courses.indexOf(course.indexLevel) === -1) {
-                    courses.push(course.indexLevel);
-                    coursesDate.push(pensum[i].inscription.period.name);
+        getStudy();
+
+        function getStudy() {
+            $http.get("http://urbe-api.urbe.edu/urbe-api/rest/1.0/inscription/people/" + AuthData.getCurrentUser().id + "/owner").then(function(res) {
+                if (res.status === 200) {
+                    AuthData.setCareer(res.data);
+                    Pensum.getPensum().then(function(res) {
+                        if (res.status === 200) {
+                            vm.pensum = res.data;
+                            // console.log("pensum", res);
+                            Pensum.getPensumScore().then(function(res) {
+                                if (res.status === 200) {
+                                    vm.pensumScore = res.data;
+                                    passedSemesters(vm.pensumScore);
+                                }
+                            });
+                        }
+                    });
                 }
-            }
-            
-            console.log("CursosFechas", coursesDate);
-
-            return courses;
+            });
         }
 
-        vm.nPassedSemesters = function(pensum) {
+        function passedSemesters(pensum) {
+            for (var i = 0; i < pensum.length; i++) {
+                var course = pensum[i].subject.course.courseLevel;
+                if (vm.courses.indexOf(course.indexLevel) === -1) {
+                    vm.courses.push(course.indexLevel);
+                    vm.coursesDate.push(pensum[i].inscription.period.name);
+                }
+            }
+
+            // console.log("CursosFechas", vm.coursesDate);
+            // console.log("Cursos", vm.courses);
+            nPassedSemesters(vm.pensum);
+        }
+
+        function nPassedSemesters(pensum) {
             var mss = [];
-            var mssRtr = [];
+            // console.log(pensum.length);
             for (var i = 0; i < pensum.length; i++) {
                 if (mss.indexOf(pensum[i].level) === -1) {
                     mss.push(pensum[i].level);
                 }
             }
 
-            for (var i = courses.length; i < mss.length; i++) {
-                mssRtr.push(mss[i]);
+            for (var j = vm.courses.length; j < mss.length; j++) {
+                vm.nCourses.push(mss[j]);
             }
 
-            return mssRtr;
-        };
+            // console.log("nCursos", vm.nCourses);
+        }
 
-        console.log("Passed", vm.passedSemesters(vm.pensumScore));
-        console.log("nPassed", vm.nPassedSemesters(vm.pensum));
     });
