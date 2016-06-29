@@ -1,0 +1,21 @@
+{
+    "id": 991041,
+    "sons": 0,
+    "identification": "23738134",
+    "idenType": "CEDULA",
+    "fname": "JOSUE",
+    "mname": "DANIEL",
+    "lname": "MAVAREZ",
+    "slname": "ALBORNOZ",
+    "email": "josuemavarez@gmail.com",
+    "secondaryEmail": "jmavarez@urbe.edu.ve",
+    "weight": 0,
+    "height": 0,
+    "address": {},
+    "age": 0,
+    "leftHanded": false,
+    "profiles": [
+        "STUDENT"
+    ],
+    "fullName": "MAVAREZ ALBORNOZ JOSUE DANIEL"
+}

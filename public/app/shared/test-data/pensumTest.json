@@ -1,0 +1,2093 @@
+[{
+    "id": 11276,
+    "name": "CÁLCULO I",
+    "precedences": [],
+    "uc": 5,
+    "type": null,
+    "required": false,
+    "level": 1,
+    "pensum": {
+        "id": 962,
+        "maxUC": 0,
+        "version": "6",
+        "totalUcRequired": 0
+    },
+    "code": null,
+    "course": {
+        "id": 0,
+        "name": null,
+        "courseOrder": 0,
+        "courseLevel": {
+            "id": 0,
+            "indexLevel": 0,
+            "maxUC": 0,
+            "subjects": null,
+            "description": "SEMESTRE"
+        },
+        "mandatory": null,
+        "ucRequired": 0
+    }
+}, {
+    "id": 11278,
+    "name": "GEOMETRÍA",
+    "precedences": [],
+    "uc": 3,
+    "type": null,
+    "required": false,
+    "level": 1,
+    "pensum": {
+        "id": 962,
+        "maxUC": 0,
+        "version": "6",
+        "totalUcRequired": 0
+    },
+    "code": null,
+    "course": {
+        "id": 0,
+        "name": null,
+        "courseOrder": 0,
+        "courseLevel": {
+            "id": 0,
+            "indexLevel": 0,
+            "maxUC": 0,
+            "subjects": null,
+            "description": "SEMESTRE"
+        },
+        "mandatory": null,
+        "ucRequired": 0
+    }
+}, {
+    "id": 11279,
+    "name": "ÁLGEBRA LINEAL",
+    "precedences": [],
+    "uc": 3,
+    "type": null,
+    "required": false,
+    "level": 1,
+    "pensum": {
+        "id": 962,
+        "maxUC": 0,
+        "version": "6",
+        "totalUcRequired": 0
+    },
+    "code": null,
+    "course": {
+        "id": 0,
+        "name": null,
+        "courseOrder": 0,
+        "courseLevel": {
+            "id": 0,
+            "indexLevel": 0,
+            "maxUC": 0,
+            "subjects": null,
+            "description": "SEMESTRE"
+        },
+        "mandatory": null,
+        "ucRequired": 0
+    }
+}, {
+    "id": 11280,
+    "name": "LENGUAJE Y HABILIDADES COGNITIVAS",
+    "precedences": [],
+    "uc": 3,
+    "type": null,
+    "required": false,
+    "level": 1,
+    "pensum": {
+        "id": 962,
+        "maxUC": 0,
+        "version": "6",
+        "totalUcRequired": 0
+    },
+    "code": null,
+    "course": {
+        "id": 0,
+        "name": null,
+        "courseOrder": 0,
+        "courseLevel": {
+            "id": 0,
+            "indexLevel": 0,
+            "maxUC": 0,
+            "subjects": null,
+            "description": "SEMESTRE"
+        },
+        "mandatory": null,
+        "ucRequired": 0
+    }
+}, {
+    "id": 11281,
+    "name": "METODOLOGÍA DE LA INVESTIGACIÓN",
+    "precedences": [],
+    "uc": 3,
+    "type": null,
+    "required": false,
+    "level": 1,
+    "pensum": {
+        "id": 962,
+        "maxUC": 0,
+        "version": "6",
+        "totalUcRequired": 0
+    },
+    "code": null,
+    "course": {
+        "id": 0,
+        "name": null,
+        "courseOrder": 0,
+        "courseLevel": {
+            "id": 0,
+            "indexLevel": 0,
+            "maxUC": 0,
+            "subjects": null,
+            "description": "SEMESTRE"
+        },
+        "mandatory": null,
+        "ucRequired": 0
+    }
+}, {
+    "id": 11282,
+    "name": "ORIENTACIÓN",
+    "precedences": [],
+    "uc": 2,
+    "type": null,
+    "required": false,
+    "level": 1,
+    "pensum": {
+        "id": 962,
+        "maxUC": 0,
+        "version": "6",
+        "totalUcRequired": 0
+    },
+    "code": null,
+    "course": {
+        "id": 0,
+        "name": null,
+        "courseOrder": 0,
+        "courseLevel": {
+            "id": 0,
+            "indexLevel": 0,
+            "maxUC": 0,
+            "subjects": null,
+            "description": "SEMESTRE"
+        },
+        "mandatory": null,
+        "ucRequired": 0
+    }
+}, {
+    "id": 11283,
+    "name": "CÁLCULO II",
+    "precedences": [{
+        "id": 11276,
+        "name": "CÁLCULO I",
+        "precedences": null,
+        "uc": 0,
+        "type": null,
+        "required": false,
+        "level": 0,
+        "pensum": null,
+        "code": null,
+        "course": null
+    }],
+    "uc": 5,
+    "type": null,
+    "required": false,
+    "level": 2,
+    "pensum": {
+        "id": 962,
+        "maxUC": 0,
+        "version": "6",
+        "totalUcRequired": 0
+    },
+    "code": null,
+    "course": {
+        "id": 0,
+        "name": null,
+        "courseOrder": 0,
+        "courseLevel": {
+            "id": 0,
+            "indexLevel": 0,
+            "maxUC": 0,
+            "subjects": null,
+            "description": "SEMESTRE"
+        },
+        "mandatory": null,
+        "ucRequired": 0
+    }
+}, {
+    "id": 11284,
+    "name": "DIBUJO COMPUTARIZADO",
+    "precedences": [{
+        "id": 11278,
+        "name": "GEOMETRÍA",
+        "precedences": null,
+        "uc": 0,
+        "type": null,
+        "required": false,
+        "level": 0,
+        "pensum": null,
+        "code": null,
+        "course": null
+    }],
+    "uc": 3,
+    "type": null,
+    "required": false,
+    "level": 2,
+    "pensum": {
+        "id": 962,
+        "maxUC": 0,
+        "version": "6",
+        "totalUcRequired": 0
+    },
+    "code": null,
+    "course": {
+        "id": 0,
+        "name": null,
+        "courseOrder": 0,
+        "courseLevel": {
+            "id": 0,
+            "indexLevel": 0,
+            "maxUC": 0,
+            "subjects": null,
+            "description": "SEMESTRE"
+        },
+        "mandatory": null,
+        "ucRequired": 0
+    }
+}, {
+    "id": 11285,
+    "name": "FÍSICA I",
+    "precedences": [{
+        "id": 11276,
+        "name": "CÁLCULO I",
+        "precedences": null,
+        "uc": 0,
+        "type": null,
+        "required": false,
+        "level": 0,
+        "pensum": null,
+        "code": null,
+        "course": null
+    }],
+    "uc": 5,
+    "type": null,
+    "required": false,
+    "level": 2,
+    "pensum": {
+        "id": 962,
+        "maxUC": 0,
+        "version": "6",
+        "totalUcRequired": 0
+    },
+    "code": null,
+    "course": {
+        "id": 0,
+        "name": null,
+        "courseOrder": 0,
+        "courseLevel": {
+            "id": 0,
+            "indexLevel": 0,
+            "maxUC": 0,
+            "subjects": null,
+            "description": "SEMESTRE"
+        },
+        "mandatory": null,
+        "ucRequired": 0
+    }
+}, {
+    "id": 11287,
+    "name": "LÓGICA",
+    "precedences": [],
+    "uc": 2,
+    "type": null,
+    "required": false,
+    "level": 2,
+    "pensum": {
+        "id": 962,
+        "maxUC": 0,
+        "version": "6",
+        "totalUcRequired": 0
+    },
+    "code": null,
+    "course": {
+        "id": 0,
+        "name": null,
+        "courseOrder": 0,
+        "courseLevel": {
+            "id": 0,
+            "indexLevel": 0,
+            "maxUC": 0,
+            "subjects": null,
+            "description": "SEMESTRE"
+        },
+        "mandatory": null,
+        "ucRequired": 0
+    }
+}, {
+    "id": 11288,
+    "name": "INTRODUCCIÓN A LA PROGRAMACIÓN",
+    "precedences": [],
+    "uc": 4,
+    "type": null,
+    "required": false,
+    "level": 2,
+    "pensum": {
+        "id": 962,
+        "maxUC": 0,
+        "version": "6",
+        "totalUcRequired": 0
+    },
+    "code": null,
+    "course": {
+        "id": 0,
+        "name": null,
+        "courseOrder": 0,
+        "courseLevel": {
+            "id": 0,
+            "indexLevel": 0,
+            "maxUC": 0,
+            "subjects": null,
+            "description": "SEMESTRE"
+        },
+        "mandatory": null,
+        "ucRequired": 0
+    }
+}, {
+    "id": 11290,
+    "name": "CÁLCULO III",
+    "precedences": [{
+        "id": 11283,
+        "name": "CÁLCULO II",
+        "precedences": null,
+        "uc": 0,
+        "type": null,
+        "required": false,
+        "level": 0,
+        "pensum": null,
+        "code": null,
+        "course": null
+    }],
+    "uc": 5,
+    "type": null,
+    "required": false,
+    "level": 3,
+    "pensum": {
+        "id": 962,
+        "maxUC": 0,
+        "version": "6",
+        "totalUcRequired": 0
+    },
+    "code": null,
+    "course": {
+        "id": 0,
+        "name": null,
+        "courseOrder": 0,
+        "courseLevel": {
+            "id": 0,
+            "indexLevel": 0,
+            "maxUC": 0,
+            "subjects": null,
+            "description": "SEMESTRE"
+        },
+        "mandatory": null,
+        "ucRequired": 0
+    }
+}, {
+    "id": 11293,
+    "name": "QUÍMICA",
+    "precedences": [{
+        "id": 11283,
+        "name": "CÁLCULO II",
+        "precedences": null,
+        "uc": 0,
+        "type": null,
+        "required": false,
+        "level": 0,
+        "pensum": null,
+        "code": null,
+        "course": null
+    }],
+    "uc": 5,
+    "type": null,
+    "required": false,
+    "level": 3,
+    "pensum": {
+        "id": 962,
+        "maxUC": 0,
+        "version": "6",
+        "totalUcRequired": 0
+    },
+    "code": null,
+    "course": {
+        "id": 0,
+        "name": null,
+        "courseOrder": 0,
+        "courseLevel": {
+            "id": 0,
+            "indexLevel": 0,
+            "maxUC": 0,
+            "subjects": null,
+            "description": "SEMESTRE"
+        },
+        "mandatory": null,
+        "ucRequired": 0
+    }
+}, {
+    "id": 11295,
+    "name": "FÍSICA II",
+    "precedences": [{
+        "id": 11285,
+        "name": "FÍSICA I",
+        "precedences": null,
+        "uc": 0,
+        "type": null,
+        "required": false,
+        "level": 0,
+        "pensum": null,
+        "code": null,
+        "course": null
+    }],
+    "uc": 5,
+    "type": null,
+    "required": false,
+    "level": 3,
+    "pensum": {
+        "id": 962,
+        "maxUC": 0,
+        "version": "6",
+        "totalUcRequired": 0
+    },
+    "code": null,
+    "course": {
+        "id": 0,
+        "name": null,
+        "courseOrder": 0,
+        "courseLevel": {
+            "id": 0,
+            "indexLevel": 0,
+            "maxUC": 0,
+            "subjects": null,
+            "description": "SEMESTRE"
+        },
+        "mandatory": null,
+        "ucRequired": 0
+    }
+}, {
+    "id": 11296,
+    "name": "INGLÉS I",
+    "precedences": [],
+    "uc": 2,
+    "type": null,
+    "required": false,
+    "level": 3,
+    "pensum": {
+        "id": 962,
+        "maxUC": 0,
+        "version": "6",
+        "totalUcRequired": 0
+    },
+    "code": null,
+    "course": {
+        "id": 0,
+        "name": null,
+        "courseOrder": 0,
+        "courseLevel": {
+            "id": 0,
+            "indexLevel": 0,
+            "maxUC": 0,
+            "subjects": null,
+            "description": "SEMESTRE"
+        },
+        "mandatory": null,
+        "ucRequired": 0
+    }
+}, {
+    "id": 11297,
+    "name": "ACTIVIDAD FÍSICA Y SALUD",
+    "precedences": [],
+    "uc": 2,
+    "type": null,
+    "required": false,
+    "level": 3,
+    "pensum": {
+        "id": 962,
+        "maxUC": 0,
+        "version": "6",
+        "totalUcRequired": 0
+    },
+    "code": null,
+    "course": {
+        "id": 0,
+        "name": null,
+        "courseOrder": 0,
+        "courseLevel": {
+            "id": 0,
+            "indexLevel": 0,
+            "maxUC": 0,
+            "subjects": null,
+            "description": "SEMESTRE"
+        },
+        "mandatory": null,
+        "ucRequired": 0
+    }
+}, {
+    "id": 11300,
+    "name": "CÁLCULO IV",
+    "precedences": [{
+        "id": 11290,
+        "name": "CÁLCULO III",
+        "precedences": null,
+        "uc": 0,
+        "type": null,
+        "required": false,
+        "level": 0,
+        "pensum": null,
+        "code": null,
+        "course": null
+    }],
+    "uc": 5,
+    "type": null,
+    "required": false,
+    "level": 4,
+    "pensum": {
+        "id": 962,
+        "maxUC": 0,
+        "version": "6",
+        "totalUcRequired": 0
+    },
+    "code": null,
+    "course": {
+        "id": 0,
+        "name": null,
+        "courseOrder": 0,
+        "courseLevel": {
+            "id": 0,
+            "indexLevel": 0,
+            "maxUC": 0,
+            "subjects": null,
+            "description": "SEMESTRE"
+        },
+        "mandatory": null,
+        "ucRequired": 0
+    }
+}, {
+    "id": 11304,
+    "name": "MATEMÁTICA DISCRETA",
+    "precedences": [],
+    "uc": 5,
+    "type": null,
+    "required": false,
+    "level": 4,
+    "pensum": {
+        "id": 962,
+        "maxUC": 0,
+        "version": "6",
+        "totalUcRequired": 0
+    },
+    "code": null,
+    "course": {
+        "id": 0,
+        "name": null,
+        "courseOrder": 0,
+        "courseLevel": {
+            "id": 0,
+            "indexLevel": 0,
+            "maxUC": 0,
+            "subjects": null,
+            "description": "SEMESTRE"
+        },
+        "mandatory": null,
+        "ucRequired": 0
+    }
+}, {
+    "id": 11306,
+    "name": "PROGRAMACIÓN I",
+    "precedences": [{
+        "id": 11288,
+        "name": "INTRODUCCIÓN A LA PROGRAMACIÓN",
+        "precedences": null,
+        "uc": 0,
+        "type": null,
+        "required": false,
+        "level": 0,
+        "pensum": null,
+        "code": null,
+        "course": null
+    }],
+    "uc": 5,
+    "type": null,
+    "required": false,
+    "level": 4,
+    "pensum": {
+        "id": 962,
+        "maxUC": 0,
+        "version": "6",
+        "totalUcRequired": 0
+    },
+    "code": null,
+    "course": {
+        "id": 0,
+        "name": null,
+        "courseOrder": 0,
+        "courseLevel": {
+            "id": 0,
+            "indexLevel": 0,
+            "maxUC": 0,
+            "subjects": null,
+            "description": "SEMESTRE"
+        },
+        "mandatory": null,
+        "ucRequired": 0
+    }
+}, {
+    "id": 11307,
+    "name": "INGLÉS II",
+    "precedences": [{
+        "id": 11296,
+        "name": "INGLÉS I",
+        "precedences": null,
+        "uc": 0,
+        "type": null,
+        "required": false,
+        "level": 0,
+        "pensum": null,
+        "code": null,
+        "course": null
+    }],
+    "uc": 2,
+    "type": null,
+    "required": false,
+    "level": 4,
+    "pensum": {
+        "id": 962,
+        "maxUC": 0,
+        "version": "6",
+        "totalUcRequired": 0
+    },
+    "code": null,
+    "course": {
+        "id": 0,
+        "name": null,
+        "courseOrder": 0,
+        "courseLevel": {
+            "id": 0,
+            "indexLevel": 0,
+            "maxUC": 0,
+            "subjects": null,
+            "description": "SEMESTRE"
+        },
+        "mandatory": null,
+        "ucRequired": 0
+    }
+}, {
+    "id": 11308,
+    "name": "ACTIVIDADES RECREACIONALES",
+    "precedences": [{
+        "id": 11297,
+        "name": "ACTIVIDAD FÍSICA Y SALUD",
+        "precedences": null,
+        "uc": 0,
+        "type": null,
+        "required": false,
+        "level": 0,
+        "pensum": null,
+        "code": null,
+        "course": null
+    }],
+    "uc": 2,
+    "type": null,
+    "required": false,
+    "level": 4,
+    "pensum": {
+        "id": 962,
+        "maxUC": 0,
+        "version": "6",
+        "totalUcRequired": 0
+    },
+    "code": null,
+    "course": {
+        "id": 0,
+        "name": null,
+        "courseOrder": 0,
+        "courseLevel": {
+            "id": 0,
+            "indexLevel": 0,
+            "maxUC": 0,
+            "subjects": null,
+            "description": "SEMESTRE"
+        },
+        "mandatory": null,
+        "ucRequired": 0
+    }
+}, {
+    "id": 11311,
+    "name": "DESARROLLO SUSTENTABLE",
+    "precedences": [],
+    "uc": 3,
+    "type": null,
+    "required": false,
+    "level": 5,
+    "pensum": {
+        "id": 962,
+        "maxUC": 0,
+        "version": "6",
+        "totalUcRequired": 0
+    },
+    "code": null,
+    "course": {
+        "id": 0,
+        "name": null,
+        "courseOrder": 0,
+        "courseLevel": {
+            "id": 0,
+            "indexLevel": 0,
+            "maxUC": 0,
+            "subjects": null,
+            "description": "SEMESTRE"
+        },
+        "mandatory": null,
+        "ucRequired": 0
+    }
+}, {
+    "id": 11313,
+    "name": "ESTADÍSTICA",
+    "precedences": [{
+        "id": 11290,
+        "name": "CÁLCULO III",
+        "precedences": null,
+        "uc": 0,
+        "type": null,
+        "required": false,
+        "level": 0,
+        "pensum": null,
+        "code": null,
+        "course": null
+    }],
+    "uc": 3,
+    "type": null,
+    "required": false,
+    "level": 5,
+    "pensum": {
+        "id": 962,
+        "maxUC": 0,
+        "version": "6",
+        "totalUcRequired": 0
+    },
+    "code": null,
+    "course": {
+        "id": 0,
+        "name": null,
+        "courseOrder": 0,
+        "courseLevel": {
+            "id": 0,
+            "indexLevel": 0,
+            "maxUC": 0,
+            "subjects": null,
+            "description": "SEMESTRE"
+        },
+        "mandatory": null,
+        "ucRequired": 0
+    }
+}, {
+    "id": 11316,
+    "name": "PROGRAMACIÓN II",
+    "precedences": [{
+        "id": 11304,
+        "name": "MATEMÁTICA DISCRETA",
+        "precedences": null,
+        "uc": 0,
+        "type": null,
+        "required": false,
+        "level": 0,
+        "pensum": null,
+        "code": null,
+        "course": null
+    }, {
+        "id": 11306,
+        "name": "PROGRAMACIÓN I",
+        "precedences": null,
+        "uc": 0,
+        "type": null,
+        "required": false,
+        "level": 0,
+        "pensum": null,
+        "code": null,
+        "course": null
+    }],
+    "uc": 5,
+    "type": null,
+    "required": false,
+    "level": 5,
+    "pensum": {
+        "id": 962,
+        "maxUC": 0,
+        "version": "6",
+        "totalUcRequired": 0
+    },
+    "code": null,
+    "course": {
+        "id": 0,
+        "name": null,
+        "courseOrder": 0,
+        "courseLevel": {
+            "id": 0,
+            "indexLevel": 0,
+            "maxUC": 0,
+            "subjects": null,
+            "description": "SEMESTRE"
+        },
+        "mandatory": null,
+        "ucRequired": 0
+    }
+}, {
+    "id": 11317,
+    "name": "INGLÉS III",
+    "precedences": [{
+        "id": 11307,
+        "name": "INGLÉS II",
+        "precedences": null,
+        "uc": 0,
+        "type": null,
+        "required": false,
+        "level": 0,
+        "pensum": null,
+        "code": null,
+        "course": null
+    }],
+    "uc": 2,
+    "type": null,
+    "required": false,
+    "level": 5,
+    "pensum": {
+        "id": 962,
+        "maxUC": 0,
+        "version": "6",
+        "totalUcRequired": 0
+    },
+    "code": null,
+    "course": {
+        "id": 0,
+        "name": null,
+        "courseOrder": 0,
+        "courseLevel": {
+            "id": 0,
+            "indexLevel": 0,
+            "maxUC": 0,
+            "subjects": null,
+            "description": "SEMESTRE"
+        },
+        "mandatory": null,
+        "ucRequired": 0
+    }
+}, {
+    "id": 11318,
+    "name": "HARDWARE DE COMPUTADORA",
+    "precedences": [],
+    "uc": 3,
+    "type": null,
+    "required": false,
+    "level": 5,
+    "pensum": {
+        "id": 962,
+        "maxUC": 0,
+        "version": "6",
+        "totalUcRequired": 0
+    },
+    "code": null,
+    "course": {
+        "id": 0,
+        "name": null,
+        "courseOrder": 0,
+        "courseLevel": {
+            "id": 0,
+            "indexLevel": 0,
+            "maxUC": 0,
+            "subjects": null,
+            "description": "SEMESTRE"
+        },
+        "mandatory": null,
+        "ucRequired": 0
+    }
+}, {
+    "id": 11321,
+    "name": "SISTEMAS OPERATIVOS",
+    "precedences": [],
+    "uc": 3,
+    "type": null,
+    "required": false,
+    "level": 5,
+    "pensum": {
+        "id": 962,
+        "maxUC": 0,
+        "version": "6",
+        "totalUcRequired": 0
+    },
+    "code": null,
+    "course": {
+        "id": 0,
+        "name": null,
+        "courseOrder": 0,
+        "courseLevel": {
+            "id": 0,
+            "indexLevel": 0,
+            "maxUC": 0,
+            "subjects": null,
+            "description": "SEMESTRE"
+        },
+        "mandatory": null,
+        "ucRequired": 0
+    }
+}, {
+    "id": 11324,
+    "name": "CALIDAD Y PRODUCTIVIDAD",
+    "precedences": [{
+        "id": 11313,
+        "name": "ESTADÍSTICA",
+        "precedences": null,
+        "uc": 0,
+        "type": null,
+        "required": false,
+        "level": 0,
+        "pensum": null,
+        "code": null,
+        "course": null
+    }],
+    "uc": 3,
+    "type": null,
+    "required": false,
+    "level": 6,
+    "pensum": {
+        "id": 962,
+        "maxUC": 0,
+        "version": "6",
+        "totalUcRequired": 0
+    },
+    "code": null,
+    "course": {
+        "id": 0,
+        "name": null,
+        "courseOrder": 0,
+        "courseLevel": {
+            "id": 0,
+            "indexLevel": 0,
+            "maxUC": 0,
+            "subjects": null,
+            "description": "SEMESTRE"
+        },
+        "mandatory": null,
+        "ucRequired": 0
+    }
+}, {
+    "id": 11326,
+    "name": "BASE DE DATOS I",
+    "precedences": [{
+        "id": 11316,
+        "name": "PROGRAMACIÓN II",
+        "precedences": null,
+        "uc": 0,
+        "type": null,
+        "required": false,
+        "level": 0,
+        "pensum": null,
+        "code": null,
+        "course": null
+    }],
+    "uc": 5,
+    "type": null,
+    "required": false,
+    "level": 6,
+    "pensum": {
+        "id": 962,
+        "maxUC": 0,
+        "version": "6",
+        "totalUcRequired": 0
+    },
+    "code": null,
+    "course": {
+        "id": 0,
+        "name": null,
+        "courseOrder": 0,
+        "courseLevel": {
+            "id": 0,
+            "indexLevel": 0,
+            "maxUC": 0,
+            "subjects": null,
+            "description": "SEMESTRE"
+        },
+        "mandatory": null,
+        "ucRequired": 0
+    }
+}, {
+    "id": 11327,
+    "name": "PROGRAMACIÓN III",
+    "precedences": [{
+        "id": 11316,
+        "name": "PROGRAMACIÓN II",
+        "precedences": null,
+        "uc": 0,
+        "type": null,
+        "required": false,
+        "level": 0,
+        "pensum": null,
+        "code": null,
+        "course": null
+    }],
+    "uc": 5,
+    "type": null,
+    "required": false,
+    "level": 6,
+    "pensum": {
+        "id": 962,
+        "maxUC": 0,
+        "version": "6",
+        "totalUcRequired": 0
+    },
+    "code": null,
+    "course": {
+        "id": 0,
+        "name": null,
+        "courseOrder": 0,
+        "courseLevel": {
+            "id": 0,
+            "indexLevel": 0,
+            "maxUC": 0,
+            "subjects": null,
+            "description": "SEMESTRE"
+        },
+        "mandatory": null,
+        "ucRequired": 0
+    }
+}, {
+    "id": 11328,
+    "name": "INGLÉS IV",
+    "precedences": [{
+        "id": 11317,
+        "name": "INGLÉS III",
+        "precedences": null,
+        "uc": 0,
+        "type": null,
+        "required": false,
+        "level": 0,
+        "pensum": null,
+        "code": null,
+        "course": null
+    }],
+    "uc": 2,
+    "type": null,
+    "required": false,
+    "level": 6,
+    "pensum": {
+        "id": 962,
+        "maxUC": 0,
+        "version": "6",
+        "totalUcRequired": 0
+    },
+    "code": null,
+    "course": {
+        "id": 0,
+        "name": null,
+        "courseOrder": 0,
+        "courseLevel": {
+            "id": 0,
+            "indexLevel": 0,
+            "maxUC": 0,
+            "subjects": null,
+            "description": "SEMESTRE"
+        },
+        "mandatory": null,
+        "ucRequired": 0
+    }
+}, {
+    "id": 11329,
+    "name": "GESTIÓN DE PROYECTOS INFORMÁTICOS",
+    "precedences": [],
+    "uc": 4,
+    "type": null,
+    "required": false,
+    "level": 6,
+    "pensum": {
+        "id": 962,
+        "maxUC": 0,
+        "version": "6",
+        "totalUcRequired": 0
+    },
+    "code": null,
+    "course": {
+        "id": 0,
+        "name": null,
+        "courseOrder": 0,
+        "courseLevel": {
+            "id": 0,
+            "indexLevel": 0,
+            "maxUC": 0,
+            "subjects": null,
+            "description": "SEMESTRE"
+        },
+        "mandatory": null,
+        "ucRequired": 0
+    }
+}, {
+    "id": 11333,
+    "name": "BASE DE DATOS II",
+    "precedences": [{
+        "id": 11326,
+        "name": "BASE DE DATOS I",
+        "precedences": null,
+        "uc": 0,
+        "type": null,
+        "required": false,
+        "level": 0,
+        "pensum": null,
+        "code": null,
+        "course": null
+    }],
+    "uc": 5,
+    "type": null,
+    "required": false,
+    "level": 7,
+    "pensum": {
+        "id": 962,
+        "maxUC": 0,
+        "version": "6",
+        "totalUcRequired": 0
+    },
+    "code": null,
+    "course": {
+        "id": 0,
+        "name": null,
+        "courseOrder": 0,
+        "courseLevel": {
+            "id": 0,
+            "indexLevel": 0,
+            "maxUC": 0,
+            "subjects": null,
+            "description": "SEMESTRE"
+        },
+        "mandatory": null,
+        "ucRequired": 0
+    }
+}, {
+    "id": 11335,
+    "name": "TEORÍA GENERAL DE SISTEMAS",
+    "precedences": [{
+        "id": 11329,
+        "name": "GESTIÓN DE PROYECTOS INFORMÁTICOS",
+        "precedences": null,
+        "uc": 0,
+        "type": null,
+        "required": false,
+        "level": 0,
+        "pensum": null,
+        "code": null,
+        "course": null
+    }],
+    "uc": 4,
+    "type": null,
+    "required": false,
+    "level": 7,
+    "pensum": {
+        "id": 962,
+        "maxUC": 0,
+        "version": "6",
+        "totalUcRequired": 0
+    },
+    "code": null,
+    "course": {
+        "id": 0,
+        "name": null,
+        "courseOrder": 0,
+        "courseLevel": {
+            "id": 0,
+            "indexLevel": 0,
+            "maxUC": 0,
+            "subjects": null,
+            "description": "SEMESTRE"
+        },
+        "mandatory": null,
+        "ucRequired": 0
+    }
+}, {
+    "id": 11337,
+    "name": "COMPILADORES",
+    "precedences": [{
+        "id": 11327,
+        "name": "PROGRAMACIÓN III",
+        "precedences": null,
+        "uc": 0,
+        "type": null,
+        "required": false,
+        "level": 0,
+        "pensum": null,
+        "code": null,
+        "course": null
+    }],
+    "uc": 5,
+    "type": null,
+    "required": false,
+    "level": 7,
+    "pensum": {
+        "id": 962,
+        "maxUC": 0,
+        "version": "6",
+        "totalUcRequired": 0
+    },
+    "code": null,
+    "course": {
+        "id": 0,
+        "name": null,
+        "courseOrder": 0,
+        "courseLevel": {
+            "id": 0,
+            "indexLevel": 0,
+            "maxUC": 0,
+            "subjects": null,
+            "description": "SEMESTRE"
+        },
+        "mandatory": null,
+        "ucRequired": 0
+    }
+}, {
+    "id": 11339,
+    "name": "INGLÉS V",
+    "precedences": [{
+        "id": 11328,
+        "name": "INGLÉS IV",
+        "precedences": null,
+        "uc": 0,
+        "type": null,
+        "required": false,
+        "level": 0,
+        "pensum": null,
+        "code": null,
+        "course": null
+    }],
+    "uc": 2,
+    "type": null,
+    "required": false,
+    "level": 7,
+    "pensum": {
+        "id": 962,
+        "maxUC": 0,
+        "version": "6",
+        "totalUcRequired": 0
+    },
+    "code": null,
+    "course": {
+        "id": 0,
+        "name": null,
+        "courseOrder": 0,
+        "courseLevel": {
+            "id": 0,
+            "indexLevel": 0,
+            "maxUC": 0,
+            "subjects": null,
+            "description": "SEMESTRE"
+        },
+        "mandatory": null,
+        "ucRequired": 0
+    }
+}, {
+    "id": 11341,
+    "name": "INGENIERÍA ECONÓMICA",
+    "precedences": [],
+    "uc": 3,
+    "type": null,
+    "required": false,
+    "level": 7,
+    "pensum": {
+        "id": 962,
+        "maxUC": 0,
+        "version": "6",
+        "totalUcRequired": 0
+    },
+    "code": null,
+    "course": {
+        "id": 0,
+        "name": null,
+        "courseOrder": 0,
+        "courseLevel": {
+            "id": 0,
+            "indexLevel": 0,
+            "maxUC": 0,
+            "subjects": null,
+            "description": "SEMESTRE"
+        },
+        "mandatory": null,
+        "ucRequired": 0
+    }
+}, {
+    "id": 11385,
+    "name": "REDES I",
+    "precedences": [],
+    "uc": 5,
+    "type": null,
+    "required": false,
+    "level": 8,
+    "pensum": {
+        "id": 962,
+        "maxUC": 0,
+        "version": "6",
+        "totalUcRequired": 0
+    },
+    "code": null,
+    "course": {
+        "id": 0,
+        "name": null,
+        "courseOrder": 0,
+        "courseLevel": {
+            "id": 0,
+            "indexLevel": 0,
+            "maxUC": 0,
+            "subjects": null,
+            "description": "SEMESTRE"
+        },
+        "mandatory": null,
+        "ucRequired": 0
+    }
+}, {
+    "id": 11386,
+    "name": "INGENIERÍA DEL SOFTWARE I",
+    "precedences": [{
+        "id": 11335,
+        "name": "TEORÍA GENERAL DE SISTEMAS",
+        "precedences": null,
+        "uc": 0,
+        "type": null,
+        "required": false,
+        "level": 0,
+        "pensum": null,
+        "code": null,
+        "course": null
+    }],
+    "uc": 5,
+    "type": null,
+    "required": false,
+    "level": 8,
+    "pensum": {
+        "id": 962,
+        "maxUC": 0,
+        "version": "6",
+        "totalUcRequired": 0
+    },
+    "code": null,
+    "course": {
+        "id": 0,
+        "name": null,
+        "courseOrder": 0,
+        "courseLevel": {
+            "id": 0,
+            "indexLevel": 0,
+            "maxUC": 0,
+            "subjects": null,
+            "description": "SEMESTRE"
+        },
+        "mandatory": null,
+        "ucRequired": 0
+    }
+}, {
+    "id": 11387,
+    "name": "COMPUTACIÓN GRÁFICA",
+    "precedences": [{
+        "id": 11337,
+        "name": "COMPILADORES",
+        "precedences": null,
+        "uc": 0,
+        "type": null,
+        "required": false,
+        "level": 0,
+        "pensum": null,
+        "code": null,
+        "course": null
+    }],
+    "uc": 5,
+    "type": null,
+    "required": false,
+    "level": 8,
+    "pensum": {
+        "id": 962,
+        "maxUC": 0,
+        "version": "6",
+        "totalUcRequired": 0
+    },
+    "code": null,
+    "course": {
+        "id": 0,
+        "name": null,
+        "courseOrder": 0,
+        "courseLevel": {
+            "id": 0,
+            "indexLevel": 0,
+            "maxUC": 0,
+            "subjects": null,
+            "description": "SEMESTRE"
+        },
+        "mandatory": null,
+        "ucRequired": 0
+    }
+}, {
+    "id": 14311,
+    "name": "PROGRAMACIÓN EN SOFTWARE LIBRE",
+    "precedences": [],
+    "uc": 2,
+    "type": null,
+    "required": false,
+    "level": 8,
+    "pensum": {
+        "id": 962,
+        "maxUC": 0,
+        "version": "6",
+        "totalUcRequired": 0
+    },
+    "code": null,
+    "course": {
+        "id": 0,
+        "name": null,
+        "courseOrder": 0,
+        "courseLevel": {
+            "id": 0,
+            "indexLevel": 0,
+            "maxUC": 0,
+            "subjects": null,
+            "description": "SEMESTRE"
+        },
+        "mandatory": null,
+        "ucRequired": 0
+    }
+}, {
+    "id": 11390,
+    "name": "AUTOESTIMA Y DESARROLLO HUMANO",
+    "precedences": [],
+    "uc": 2,
+    "type": null,
+    "required": false,
+    "level": 8,
+    "pensum": {
+        "id": 962,
+        "maxUC": 0,
+        "version": "6",
+        "totalUcRequired": 0
+    },
+    "code": null,
+    "course": {
+        "id": 0,
+        "name": null,
+        "courseOrder": 0,
+        "courseLevel": {
+            "id": 0,
+            "indexLevel": 0,
+            "maxUC": 0,
+            "subjects": null,
+            "description": "SEMESTRE"
+        },
+        "mandatory": null,
+        "ucRequired": 0
+    }
+}, {
+    "id": 11392,
+    "name": "REDES II",
+    "precedences": [{
+        "id": 11385,
+        "name": "REDES I",
+        "precedences": null,
+        "uc": 0,
+        "type": null,
+        "required": false,
+        "level": 0,
+        "pensum": null,
+        "code": null,
+        "course": null
+    }],
+    "uc": 5,
+    "type": null,
+    "required": false,
+    "level": 9,
+    "pensum": {
+        "id": 962,
+        "maxUC": 0,
+        "version": "6",
+        "totalUcRequired": 0
+    },
+    "code": null,
+    "course": {
+        "id": 0,
+        "name": null,
+        "courseOrder": 0,
+        "courseLevel": {
+            "id": 0,
+            "indexLevel": 0,
+            "maxUC": 0,
+            "subjects": null,
+            "description": "SEMESTRE"
+        },
+        "mandatory": null,
+        "ucRequired": 0
+    }
+}, {
+    "id": 11393,
+    "name": "INGENIERÍA DEL SOFTWARE II",
+    "precedences": [{
+        "id": 11386,
+        "name": "INGENIERÍA DEL SOFTWARE I",
+        "precedences": null,
+        "uc": 0,
+        "type": null,
+        "required": false,
+        "level": 0,
+        "pensum": null,
+        "code": null,
+        "course": null
+    }],
+    "uc": 5,
+    "type": null,
+    "required": false,
+    "level": 9,
+    "pensum": {
+        "id": 962,
+        "maxUC": 0,
+        "version": "6",
+        "totalUcRequired": 0
+    },
+    "code": null,
+    "course": {
+        "id": 0,
+        "name": null,
+        "courseOrder": 0,
+        "courseLevel": {
+            "id": 0,
+            "indexLevel": 0,
+            "maxUC": 0,
+            "subjects": null,
+            "description": "SEMESTRE"
+        },
+        "mandatory": null,
+        "ucRequired": 0
+    }
+}, {
+    "id": 11394,
+    "name": "MULTIMEDIA Y DISEÑO WEB",
+    "precedences": [],
+    "uc": 5,
+    "type": null,
+    "required": false,
+    "level": 9,
+    "pensum": {
+        "id": 962,
+        "maxUC": 0,
+        "version": "6",
+        "totalUcRequired": 0
+    },
+    "code": null,
+    "course": {
+        "id": 0,
+        "name": null,
+        "courseOrder": 0,
+        "courseLevel": {
+            "id": 0,
+            "indexLevel": 0,
+            "maxUC": 0,
+            "subjects": null,
+            "description": "SEMESTRE"
+        },
+        "mandatory": null,
+        "ucRequired": 0
+    }
+}, {
+    "id": 14393,
+    "name": "PROGRAMACIÓN DE VIDEO JUEGOS",
+    "precedences": [],
+    "uc": 2,
+    "type": null,
+    "required": false,
+    "level": 9,
+    "pensum": {
+        "id": 962,
+        "maxUC": 0,
+        "version": "6",
+        "totalUcRequired": 0
+    },
+    "code": null,
+    "course": {
+        "id": 0,
+        "name": null,
+        "courseOrder": 0,
+        "courseLevel": {
+            "id": 0,
+            "indexLevel": 0,
+            "maxUC": 0,
+            "subjects": null,
+            "description": "SEMESTRE"
+        },
+        "mandatory": null,
+        "ucRequired": 0
+    }
+}, {
+    "id": 11398,
+    "name": "COMPETENCIAS COMUNICATIVAS",
+    "precedences": [],
+    "uc": 2,
+    "type": null,
+    "required": false,
+    "level": 9,
+    "pensum": {
+        "id": 962,
+        "maxUC": 0,
+        "version": "6",
+        "totalUcRequired": 0
+    },
+    "code": null,
+    "course": {
+        "id": 0,
+        "name": null,
+        "courseOrder": 0,
+        "courseLevel": {
+            "id": 0,
+            "indexLevel": 0,
+            "maxUC": 0,
+            "subjects": null,
+            "description": "SEMESTRE"
+        },
+        "mandatory": null,
+        "ucRequired": 0
+    }
+}, {
+    "id": 11402,
+    "name": "SEMINARIO DE INVESTIGACIÓN I",
+    "precedences": [{
+        "id": 11339,
+        "name": "INGLÉS V",
+        "precedences": null,
+        "uc": 0,
+        "type": null,
+        "required": false,
+        "level": 0,
+        "pensum": null,
+        "code": null,
+        "course": null
+    }, {
+        "id": 11344,
+        "name": "SERVICIO COMUNITARIO (LEY)",
+        "precedences": null,
+        "uc": 0,
+        "type": null,
+        "required": false,
+        "level": 0,
+        "pensum": null,
+        "code": null,
+        "course": null
+    }],
+    "uc": 3,
+    "type": null,
+    "required": false,
+    "level": 10,
+    "pensum": {
+        "id": 962,
+        "maxUC": 0,
+        "version": "6",
+        "totalUcRequired": 0
+    },
+    "code": null,
+    "course": {
+        "id": 0,
+        "name": null,
+        "courseOrder": 0,
+        "courseLevel": {
+            "id": 0,
+            "indexLevel": 0,
+            "maxUC": 0,
+            "subjects": null,
+            "description": "SEMESTRE"
+        },
+        "mandatory": null,
+        "ucRequired": 0
+    }
+}, {
+    "id": 11405,
+    "name": "AUDITORÍA Y EVALUACIÓN DE SISTEMAS",
+    "precedences": [],
+    "uc": 4,
+    "type": null,
+    "required": false,
+    "level": 10,
+    "pensum": {
+        "id": 962,
+        "maxUC": 0,
+        "version": "6",
+        "totalUcRequired": 0
+    },
+    "code": null,
+    "course": {
+        "id": 0,
+        "name": null,
+        "courseOrder": 0,
+        "courseLevel": {
+            "id": 0,
+            "indexLevel": 0,
+            "maxUC": 0,
+            "subjects": null,
+            "description": "SEMESTRE"
+        },
+        "mandatory": null,
+        "ucRequired": 0
+    }
+}, {
+    "id": 11406,
+    "name": "PROGRAMACIÓN WEB",
+    "precedences": [{
+        "id": 11394,
+        "name": "MULTIMEDIA Y DISEÑO WEB",
+        "precedences": null,
+        "uc": 0,
+        "type": null,
+        "required": false,
+        "level": 0,
+        "pensum": null,
+        "code": null,
+        "course": null
+    }],
+    "uc": 5,
+    "type": null,
+    "required": false,
+    "level": 10,
+    "pensum": {
+        "id": 962,
+        "maxUC": 0,
+        "version": "6",
+        "totalUcRequired": 0
+    },
+    "code": null,
+    "course": {
+        "id": 0,
+        "name": null,
+        "courseOrder": 0,
+        "courseLevel": {
+            "id": 0,
+            "indexLevel": 0,
+            "maxUC": 0,
+            "subjects": null,
+            "description": "SEMESTRE"
+        },
+        "mandatory": null,
+        "ucRequired": 0
+    }
+}, {
+    "id": 11408,
+    "name": "INTELIGENCIA ARTIFICIAL",
+    "precedences": [],
+    "uc": 5,
+    "type": null,
+    "required": false,
+    "level": 10,
+    "pensum": {
+        "id": 962,
+        "maxUC": 0,
+        "version": "6",
+        "totalUcRequired": 0
+    },
+    "code": null,
+    "course": {
+        "id": 0,
+        "name": null,
+        "courseOrder": 0,
+        "courseLevel": {
+            "id": 0,
+            "indexLevel": 0,
+            "maxUC": 0,
+            "subjects": null,
+            "description": "SEMESTRE"
+        },
+        "mandatory": null,
+        "ucRequired": 0
+    }
+}, {
+    "id": 11413,
+    "name": "RESPONSABILIDAD SOCIAL CORPORATIVA",
+    "precedences": [],
+    "uc": 2,
+    "type": null,
+    "required": false,
+    "level": 10,
+    "pensum": {
+        "id": 962,
+        "maxUC": 0,
+        "version": "6",
+        "totalUcRequired": 0
+    },
+    "code": null,
+    "course": {
+        "id": 0,
+        "name": null,
+        "courseOrder": 0,
+        "courseLevel": {
+            "id": 0,
+            "indexLevel": 0,
+            "maxUC": 0,
+            "subjects": null,
+            "description": "SEMESTRE"
+        },
+        "mandatory": null,
+        "ucRequired": 0
+    }
+}, {
+    "id": 11420,
+    "name": "SEMINARIO DE INVESTIGACIÓN II",
+    "precedences": [{
+        "id": 11402,
+        "name": "SEMINARIO DE INVESTIGACIÓN I",
+        "precedences": null,
+        "uc": 0,
+        "type": null,
+        "required": false,
+        "level": 0,
+        "pensum": null,
+        "code": null,
+        "course": null
+    }],
+    "uc": 3,
+    "type": null,
+    "required": false,
+    "level": 11,
+    "pensum": {
+        "id": 962,
+        "maxUC": 0,
+        "version": "6",
+        "totalUcRequired": 0
+    },
+    "code": null,
+    "course": {
+        "id": 0,
+        "name": null,
+        "courseOrder": 0,
+        "courseLevel": {
+            "id": 0,
+            "indexLevel": 0,
+            "maxUC": 0,
+            "subjects": null,
+            "description": "SEMESTRE"
+        },
+        "mandatory": null,
+        "ucRequired": 0
+    }
+}, {
+    "id": 11421,
+    "name": "SIMULACIÓN DE SISTEMAS",
+    "precedences": [],
+    "uc": 5,
+    "type": null,
+    "required": false,
+    "level": 11,
+    "pensum": {
+        "id": 962,
+        "maxUC": 0,
+        "version": "6",
+        "totalUcRequired": 0
+    },
+    "code": null,
+    "course": {
+        "id": 0,
+        "name": null,
+        "courseOrder": 0,
+        "courseLevel": {
+            "id": 0,
+            "indexLevel": 0,
+            "maxUC": 0,
+            "subjects": null,
+            "description": "SEMESTRE"
+        },
+        "mandatory": null,
+        "ucRequired": 0
+    }
+}, {
+    "id": 11422,
+    "name": "DESARROLLO DE LA CAPACIDAD EMPRENDEDORA",
+    "precedences": [],
+    "uc": 2,
+    "type": null,
+    "required": false,
+    "level": 11,
+    "pensum": {
+        "id": 962,
+        "maxUC": 0,
+        "version": "6",
+        "totalUcRequired": 0
+    },
+    "code": null,
+    "course": {
+        "id": 0,
+        "name": null,
+        "courseOrder": 0,
+        "courseLevel": {
+            "id": 0,
+            "indexLevel": 0,
+            "maxUC": 0,
+            "subjects": null,
+            "description": "SEMESTRE"
+        },
+        "mandatory": null,
+        "ucRequired": 0
+    }
+}, {
+    "id": 11423,
+    "name": "ADMINISTRACIÓN DE CENTROS DE INFORMÁTICA",
+    "precedences": [],
+    "uc": 4,
+    "type": null,
+    "required": false,
+    "level": 11,
+    "pensum": {
+        "id": 962,
+        "maxUC": 0,
+        "version": "6",
+        "totalUcRequired": 0
+    },
+    "code": null,
+    "course": {
+        "id": 0,
+        "name": null,
+        "courseOrder": 0,
+        "courseLevel": {
+            "id": 0,
+            "indexLevel": 0,
+            "maxUC": 0,
+            "subjects": null,
+            "description": "SEMESTRE"
+        },
+        "mandatory": null,
+        "ucRequired": 0
+    }
+}, {
+    "id": 13086,
+    "name": "PLANEACIÓN Y GESTIÓN DE REDES",
+    "precedences": [],
+    "uc": 2,
+    "type": null,
+    "required": false,
+    "level": 11,
+    "pensum": {
+        "id": 962,
+        "maxUC": 0,
+        "version": "6",
+        "totalUcRequired": 0
+    },
+    "code": null,
+    "course": {
+        "id": 0,
+        "name": null,
+        "courseOrder": 0,
+        "courseLevel": {
+            "id": 0,
+            "indexLevel": 0,
+            "maxUC": 0,
+            "subjects": null,
+            "description": "SEMESTRE"
+        },
+        "mandatory": null,
+        "ucRequired": 0
+    }
+}, {
+    "id": 11425,
+    "name": "ÉTICA Y DEONTOLOGÍA",
+    "precedences": [],
+    "uc": 3,
+    "type": null,
+    "required": false,
+    "level": 11,
+    "pensum": {
+        "id": 962,
+        "maxUC": 0,
+        "version": "6",
+        "totalUcRequired": 0
+    },
+    "code": null,
+    "course": {
+        "id": 0,
+        "name": null,
+        "courseOrder": 0,
+        "courseLevel": {
+            "id": 0,
+            "indexLevel": 0,
+            "maxUC": 0,
+            "subjects": null,
+            "description": "SEMESTRE"
+        },
+        "mandatory": null,
+        "ucRequired": 0
+    }
+}, {
+    "id": 11427,
+    "name": "SEMINARIO DE INVESTIGACIÓN III",
+    "precedences": [{
+        "id": 11420,
+        "name": "SEMINARIO DE INVESTIGACIÓN II",
+        "precedences": null,
+        "uc": 0,
+        "type": null,
+        "required": false,
+        "level": 0,
+        "pensum": null,
+        "code": null,
+        "course": null
+    }],
+    "uc": 9,
+    "type": null,
+    "required": false,
+    "level": 12,
+    "pensum": {
+        "id": 962,
+        "maxUC": 0,
+        "version": "6",
+        "totalUcRequired": 0
+    },
+    "code": null,
+    "course": {
+        "id": 0,
+        "name": null,
+        "courseOrder": 0,
+        "courseLevel": {
+            "id": 0,
+            "indexLevel": 0,
+            "maxUC": 0,
+            "subjects": null,
+            "description": "SEMESTRE"
+        },
+        "mandatory": null,
+        "ucRequired": 0
+    }
+}, {
+    "id": 11428,
+    "name": "PASANTÍA ACADÉMICA",
+    "precedences": [{
+        "id": 11420,
+        "name": "SEMINARIO DE INVESTIGACIÓN II",
+        "precedences": null,
+        "uc": 0,
+        "type": null,
+        "required": false,
+        "level": 0,
+        "pensum": null,
+        "code": null,
+        "course": null
+    }],
+    "uc": 10,
+    "type": null,
+    "required": false,
+    "level": 12,
+    "pensum": {
+        "id": 962,
+        "maxUC": 0,
+        "version": "6",
+        "totalUcRequired": 0
+    },
+    "code": null,
+    "course": {
+        "id": 0,
+        "name": null,
+        "courseOrder": 0,
+        "courseLevel": {
+            "id": 0,
+            "indexLevel": 0,
+            "maxUC": 0,
+            "subjects": null,
+            "description": "SEMESTRE"
+        },
+        "mandatory": null,
+        "ucRequired": 0
+    }
+}]
