@@ -2,10 +2,11 @@ angular.module('urbeApp', [
         'app.routes',
         'mainCtrl',
         'pensumCtrl',
-        'pensumService',
         'testdata',
-        'Api',
-        'AuthService'
+        'AuthService',
+        'UrbeApi',
+        'ngProgress',
+        'base64'
     ])
     .config(function($httpProvider) {
         $httpProvider.interceptors.push('AuthInterceptor');

@@ -1,17 +1,17 @@
 angular.module('AuthService', [])
     .factory('AuthData', function($window) {
         var f = {};
-        var credentials = "";
         var user = {};
-        var auth = "";
         var career = {};
+        var tokenName = 'urbe_session_token';
 
-        f.setCredentials = function(ncredentials) {
-            credentials = ncredentials;
+        f.setAuthorization = function(token) {
+            if (token) $window.localStorage.setItem(tokenName, token);
+            else $window.localStorage.removeItem(tokenName);
         };
 
-        f.getCredentials = function() {
-            return credentials;
+        f.getAuthorization = function() {
+            return $window.localStorage.getItem(tokenName);
         };
 
         f.setCurrentUser = function(nuser) {
@@ -20,14 +20,6 @@ angular.module('AuthService', [])
 
         f.getCurrentUser = function() {
             return user;
-        };
-
-        f.setAuthorization = function(nauth) {
-            auth = nauth;
-        };
-
-        f.getAuthorization = function() {
-            return auth;
         };
 
         f.setCareer = function(ncareer) {
@@ -40,17 +32,30 @@ angular.module('AuthService', [])
 
         return f;
     })
-    .factory('Auth', function($http, API, AuthData) {
+    .factory('Auth', function($http, AuthData) {
         var authFactory = {};
 
-        authFactory.login = function(email, password) {
-            return $http.get(API.BASE + API.LOGIN)
-                .success(function(data, status, headers, config) {
-                    var heads = headers();
-                    AuthData.setCurrentUser(data);
-                    AuthData.setAuthorization(heads['x-authorization']);
-                    return data;
-                });
+        authFactory.login = function(cedula, password) {
+            // AuthData.setCredentials(cedula + ":" + password);
+            return $http({
+                method: 'GET',
+                url: 'http://urbe-api.urbe.edu/urbe-api/rest/1.0/auth/login',
+                headers: {
+                    'X-Authenticate': cedula + ':' + password
+                },
+            }).then(function(response) {
+                AuthData.setCurrentUser(response.data);
+                AuthData.setAuthorization(response.headers()['x-authorization'])
+                return response;
+            }, function(response) {
+                return response;
+            });
+        };
+
+        authFactory.logout = function() {
+            AuthData.setAuthorization();
+            AuthData.user = {};
+            AuthData.career = {};
         };
 
         return authFactory;
@@ -59,12 +64,12 @@ angular.module('AuthService', [])
         var interceptorFactory = {};
 
         interceptorFactory.request = function(config) {
-            var credentials = AuthData.getCredentials();
+            // var credentials = AuthData.getCredentials();
             var authorization = AuthData.getAuthorization();
 
             // console.log('credentials' + credentials + " authorization " + authorization);
-            if (credentials)
-                config.headers['X-Authenticate'] = credentials;
+            // if (credentials)
+            //     config.headers['X-Authenticate'] = credentials;
             if (authorization)
                 config.headers['X-Authorization'] = authorization;
 
@@ -73,7 +78,7 @@ angular.module('AuthService', [])
 
         interceptorFactory.responseError = function(response) {
             if (response.status == 403) {
-                AuthData.setCredentials("");
+                // AuthData.setCredentials("");
                 AuthData.setAuthorization("");
                 $location.path('/login');
             }

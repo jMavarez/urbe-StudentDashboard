@@ -11,6 +11,7 @@
     	<link rel="stylesheet" href="../assets/libs/bootstrap/dist/css/bootstrap.min.css">
     	<link rel="stylesheet" href="../assets/libs/font-awesome/css/font-awesome.min.css">
     	<link rel="stylesheet" href="../assets/libs/AngularJS-Toaster/toaster.min.css">
+    	<link rel="stylesheet" href="../assets/libs/ngprogress/ngProgress.css">
 
         <!-- JS Libs -->
     	<script src="../assets/libs/angular/angular.min.js"></script>
@@ -18,23 +19,38 @@
     	<script src="../assets/libs/angular-ui-router/release/angular-ui-router.min.js"></script>
     	<script src="../assets/libs/angular-animate/angular-animate.min.js"></script>
     	<script src="../assets/libs/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+    	<script src="../assets/libs/ngprogress/build/ngProgress.min.js"></script>
+    	<script src="../assets/libs/angular-base64/angular-base64.js"></script>
 
         <!-- App -->
     	<script src="modules/pensum/pensumCtrl.js"></script>
-    	<script src="modules/pensum/pensumService.js"></script>
     	<script src="app.js"></script>
     	<script src="shared/mainCtrl.js"></script>
     	<script src="shared/testdata.js"></script>
-    	<script src="shared/Api.js"></script>
+    	<script src="shared/urbeApi.js"></script>
     	<script src="shared/authService.js"></script>
     	<script src="app.routes.js"></script>
     </head>
     <body ng-app="urbeApp" ng-controller="mainController as main">
-        NOMBRE: <strong>{{main.user.fullName}}</strong> CEDULA: {{main.user.identification}}
-        <div class="row" style="font-size: 12px;">
-			<div class="col-md-12 col-sm-12 col-ls-12">
+        <div class="navbar navbar-default navbar-static-top">
+    		<div class="container">
+    			<div class="navbar-header">
+    				<a class="navbar-brand">URBE - PensumMatch</a>
+    			</div>
+    			<ul class="nav navbar-nav navbar-right">
+                    <li ng-click="main.getPhoto()"><a href="">Foto</a></li>
+                    <li ng-click="main.getNews()"><a href="">News</a></li>
+    			</ul>
+    			<ul class="nav navbar-nav navbar-left">
+                    <li ng-if="main.user.fullName"><a>NOMBRE: <strong>{{main.user.fullName}}</strong> CEDULA: {{main.user.identification}}</a></li>
+    			</ul>
+    		</div>
+            <div style="height: 20px; background-color: #FF0000" id="progressbar"></div>
+    	</div>
+        <div class="row" style="font-size: 12px; background-color: #337ab7">
+			<!-- <div class="col-md-12 col-sm-12 col-ls-12"> -->
 				<ui-view></ui-view>
-			</div>
+			<!-- </div> -->
 		</div>
     </body>
 </html>

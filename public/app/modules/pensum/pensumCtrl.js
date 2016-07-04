@@ -1,31 +1,32 @@
-angular.module('pensumCtrl', ['pensumService'])
-    .controller('pensumController', function(Pensum, $http, AuthData) {
+angular.module('pensumCtrl', [])
+    .controller('pensumController', function($http, $state, AuthData, ngProgressFactory, Urbe) {
         var vm = this;
         vm.courses = [];
         vm.nCourses = [];
         vm.coursesDate = [];
         vm.pensum = [];
         vm.pensumScore = [];
+        vm.progressbar = ngProgressFactory.createInstance();
 
-        getStudy();
+        if (!AuthData.getCurrentUser()) {
+            $state.go('login');
+        }
 
-        function getStudy() {
-            $http.get("http://urbe-api.urbe.edu/urbe-api/rest/1.0/inscription/people/" + AuthData.getCurrentUser().id + "/owner").then(function(res) {
-                if (res.status === 200) {
-                    AuthData.setCareer(res.data);
-                    Pensum.getPensum().then(function(res) {
-                        if (res.status === 200) {
-                            vm.pensum = res.data;
-                            // console.log("pensum", res);
-                            Pensum.getPensumScore().then(function(res) {
-                                if (res.status === 200) {
-                                    vm.pensumScore = res.data;
-                                    passedSemesters(vm.pensumScore);
-                                }
-                            });
-                        }
+        initPensum();
+        initProgressBar();
+
+        function initPensum() {
+            vm.progressbar.start();
+            Urbe.getStudies(AuthData.getCurrentUser().id).then(function(res) {
+                AuthData.setCareer(res.data);
+                Urbe.getPensum(AuthData.getCareer()[0].study.id).then(function(res) {
+                    vm.pensum = res.data;
+                    Urbe.getPensumScore(AuthData.getCareer()[0].id).then(function(res) {
+                        vm.progressbar.complete();
+                        vm.pensumScore = res.data;
+                        passedSemesters(vm.pensumScore);
                     });
-                }
+                });
             });
         }
 
@@ -38,14 +39,12 @@ angular.module('pensumCtrl', ['pensumService'])
                 }
             }
 
-            // console.log("CursosFechas", vm.coursesDate);
-            // console.log("Cursos", vm.courses);
             nPassedSemesters(vm.pensum);
         }
 
         function nPassedSemesters(pensum) {
             var mss = [];
-            // console.log(pensum.length);
+
             for (var i = 0; i < pensum.length; i++) {
                 if (mss.indexOf(pensum[i].level) === -1) {
                     mss.push(pensum[i].level);
@@ -55,8 +54,11 @@ angular.module('pensumCtrl', ['pensumService'])
             for (var j = vm.courses.length; j < mss.length; j++) {
                 vm.nCourses.push(mss[j]);
             }
+        }
 
-            // console.log("nCursos", vm.nCourses);
+        function initProgressBar() {
+            vm.progressbar.setParent(document.getElementById('progressbar'));
+            vm.progressbar.setColor('#337ab7');
         }
 
     });
