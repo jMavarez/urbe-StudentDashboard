@@ -32,7 +32,6 @@ angular.module('mainCtrl', [])
         };
 
         function initProgressBar() {
-            vm.progressbar.setParent(document.getElementById('progressbar'));
-            vm.progressbar.setColor('#337ab7');
+            vm.progressbar.setColor('#00bc8c');
         }
     });

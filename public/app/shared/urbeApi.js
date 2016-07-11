@@ -68,12 +68,13 @@ angular.module('UrbeApi', [])
             return $http({
                 method: 'GET',
                 url: 'http://urbe-api.urbe.edu/urbe-api/rest/1.0/people/' + student + '/photo/owner'
-            }).then(function(response) {
-                console.log('foto', response);
-                return response;
-            }, function(response) {
-                console.log('foto', response);
-                return response;
+            }).then(function(data, status, headers, config) {
+                // var photoString = new Blob([response], {type: "octet/stream"});
+                // console.log("blob", photoString);
+                // return response;
+            }, function(data, status, headers, config) {
+                // console.log('foto', response);
+                // return response;
             });
         };
 

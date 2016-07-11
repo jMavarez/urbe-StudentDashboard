@@ -8,12 +8,12 @@ angular.module('pensumCtrl', [])
         vm.pensumScore = [];
         vm.progressbar = ngProgressFactory.createInstance();
 
-        if (!AuthData.getCurrentUser()) {
+        if (AuthData.getCurrentUser().id == null) {
             $state.go('login');
+        } else {
+            initPensum();
+            initProgressBar();
         }
-
-        initPensum();
-        initProgressBar();
 
         function initPensum() {
             vm.progressbar.start();
@@ -57,8 +57,7 @@ angular.module('pensumCtrl', [])
         }
 
         function initProgressBar() {
-            vm.progressbar.setParent(document.getElementById('progressbar'));
-            vm.progressbar.setColor('#337ab7');
+            vm.progressbar.setColor('#00bc8c');
         }
 
     });
