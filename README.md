@@ -1,6 +1,6 @@
 # URBE StudentDashboard!
 
-URBE StudentDashboard! es una manera fácil de ver tu progreso a lo largo de tu carrera universitaria, con el objetivo de crear un experiencia al ver tus notas.
+URBE StudentDashboard! es una manera fácil de ver tu progreso a lo largo de tu carrera universitaria, con el objetivo de crear una experiencia diferente al ver tus notas.
 
 ## LICENCIA
 
